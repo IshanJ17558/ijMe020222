@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+a {
+    color: none;
+    text-decoration: none;
+}
+
+.headerSection {
+    padding: 0 10% 0 10%;
+    color: black;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+
+.headerSection h1 {
+    display: flex;
+    padding-top: 38vh;
+    font-family: 'Redressed', cursive;
+    font-size: 4.4rem;
+}
+
+.headerSection h3 {
+    font-family: 'PT Serif', serif;
+    max-width: 80%;
+}
+
+.headerSectionPart1 {
+    padding-left: 5vw;
+    order: 1;
+}
+
+.headerSectionPart2 {
+    order: 2;
+}
+
+.headerSection img {
+    margin: auto;
+    width: 40vw;
+    padding-top: 10vh;
+    padding-left: 5vw;
+}
+
+hr {
+    margin: auto;
+    max-width: 100%;
+    border: 1px solid;
+    background-color: black;
+}
+
+.aboutMe {
+    margin-top: 0vh;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.aboutMeInnerDiv h2 {
+    font-family: 'PT Serif', serif;
+}
+
+.aboutMeInnerDiv {
+    background-color: #0F0E0E;
+    color: white;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 0vh;
+}
+
+.aboutMeInnerDivPart1 {
+    order: 1;
+}
+
+.aboutMeInnerDivPart2 {
+    order: 2;
+}
+
+.aboutMe h3 {
+    font-family: 'Mukta', sans-serif;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: underline;
+    padding-top: 20vh;
+}
+
+.aboutMe p {
+    font-family: 'Mukta', sans-serif;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: 1.2rem;
+}
+
+.carouselLocalEdit img {
+    margin: auto;
+    width: 20vw;
+}
+
+.myProjects {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+
+.myProjects a {
+    color: black;
+    text-decoration: none;
+}
+
+.myProjects h2 {
+    font-family: 'PT Serif', serif;
+}
+
+.myProjectsInnerDiv {
+    margin: auto;
+    max-width: 80vw;
+    padding-top: 5vh;
+}
+
+.myProjectsInnerDiv h3 {
+    margin: auto;
+    font-family: 'Mukta', sans-serif;
+    max-width: 80%;
+    font-size: 1.8rem;
+}
+
+.cardHead {
+    border: 3px solid gray;
+    background-color: #5800FF;
+    padding-top: 2vh;
+    border-radius: 5px 5px 0 0;
+    padding-bottom: 2vh;
+    min-height: 15vh;
+    color: white;
+}
+
+.cardHead2 {
+    background-color: #2EB086;
+}
+
+.cardHead3 {
+    background-color: #FFC600;
+}
+
+.cardBody {
+    background-color: rgba(128, 128, 128, 0.5);
+    border: 2px solid rgba(128, 128, 128, 0.527);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.cardBody img {
+    position: relative;
+    max-width: 15vw;
+}
+
+.cardDescription {
+    background-color: rgba(128, 128, 128, 0.267);
+    color: #000000;
+    border-radius: 0 0 5px 5px;
+    border: 3px solid gray;
+    padding: 5vh 0 5px 0;
+    line-height: 1;
+    margin-bottom: 5vh;
+}
+
+.cardDescription p {
+    font-family: 'Mukta', sans-serif;
+    text-align: left;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.cardDescriptionPython p {
+    font-size: 1.2rem;
+}
+
+.contactME {
+    text-align: center;
+    background-color: #0F0E0E;
+    color: white;
+    padding-top: 5vh;
+    min-height: 20vh;
+}
+
+.contactME h2 {
+    font-family: 'Redressed', cursive;
+    padding-bottom: 10vh;
+    font-size: 3rem;
+}
+
+.logoName {
+    font-family: 'Redressed', cursive
+}
+
+.contactUsIcons {
+    font-size: 2vw;
+    margin-top: 2vh;
+}
+
+.contactUsIcon {
+    margin: auto;
+    width: 4vw;
+    height: 4vw;
+    background-color: #222831;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.contactME h3 {
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    padding-bottom: 10vh;
+}
+
+.contactME h3 {
+    font-family: 'Mukta', sans-serif;
+}
